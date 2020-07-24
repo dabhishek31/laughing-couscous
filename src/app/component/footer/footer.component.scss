@@ -1,0 +1,51 @@
+$darkBLue: #05386B;
+$lightBlueGreen: #379683;
+$backgroundGreen: #5CDB95;
+$lightGreen: #8EE4AF;
+$white: #EDF5E1;
+
+
+.footer {
+  margin-top: 40px;
+  width: 100%;
+  background-color: $darkBLue;
+  .container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    .brandLogo {
+      display: flex;
+      justify-content: flex-start;
+      padding: 20px 0px;
+      .brandIcon {
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        padding: 20px;
+        background-color: $lightGreen;
+      }
+      .brandName {
+        font-weight: bold;
+        width: 50px;
+        font-size: 18px;
+        color: $lightGreen;
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+    }
+    .menu {
+      padding: 20px 0px;
+      font-weight: bold;
+      font-size: 16px;
+      .menutitle {
+        color: $white;
+      }
+      .menusubtitle{
+        color: $lightGreen;
+        margin-top: 5px;
+      }
+    }
+  }
+}

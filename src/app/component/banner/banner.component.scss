@@ -1,0 +1,31 @@
+$darkBLue: #05386B;
+$lightBlueGreen: #379683;
+$backgroundGreen: #5CDB95;
+$lightGreen: #8EE4AF;
+$white: #EDF5E1;
+
+.banner{
+    margin-top: 10px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+    .bannerContents{
+      color: $white;
+      background: url('../../../assets/SVG/banner.svg') no-repeat;
+      padding: 15px 50px;
+      div {
+        justify-content: space-between;
+        display: flex;
+        padding: 20px;
+        div{
+          font-size: 60px;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-align: center;
+        }
+      }
+    }
+}

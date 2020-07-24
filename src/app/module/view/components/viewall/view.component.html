@@ -1,0 +1,139 @@
+<div class="container">
+  <div class="topRecipesHeader">
+    <div class="topRecipeTitle">
+      VIEW ALL RECIPES
+    </div>
+    <div class="topRecipeTitle2">
+      After a good dinner one can forgive anybody, even one’s own relatives.
+    </div>
+  </div>
+
+  <div class="viewallRecipeContainer">
+    <a routerLink="345">
+      <div class="recipe">
+        <div class="recipeimage">
+          <img
+            src="https://hips.hearstapps.com/vidthumb/images/delish-cinnamon-roll-poke-cake-still002-1556031576.jpg?crop=0.636xw:0.567xh;0.135xw,0.137xh&resize=640:*"
+            alt=""
+          />
+        </div>
+
+        <div class="recipeDetail">
+          <div class="recipeTitle">
+            <div class="title">
+              <div class="text">
+                Cinnamon Roll Poke Cake
+              </div>
+            </div>
+            <div class="readmore">
+              <div class="text">
+                Click to read more
+              </div>
+            </div>
+          </div>
+          <div class="recipeDescition">
+            <div class="ingredients">
+              <div class="text">
+                <span class="green">INGREDIENTS : </span
+                >{{
+                  getStrippedText(
+                    " 1 (14-oz.) can sweetened condensed milk, 4 tbsp. melted butter,
+                1/2 c. packed brown sugar, 1 tsp. cinnamon, Pinch of kosher salt",
+                    150
+                  )
+                }}
+              </div>
+            </div>
+            <div class="instructions">
+              <div class="text">
+                <span class="green">INSTRUCTIONS : </span
+                >{{
+                  getStrippedText(
+                    '1. Make cake: Preheat oven to 350°. Grease
+                a 9"-x-13" baking pan with cooking spray. Prepare cake according
+                to package directions. Pour batter into prepared pan and bake
+                until a toothpick inserted in middle comes out clean, 20
+                minutes',
+                    200
+                  )
+                }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a routerLink="123">
+      <div class="recipe">
+        <div class="recipeimage">
+          <img
+            src="https://images.food52.com/5W4WoJbX5yoXLp_s5_1qH42bn_s=/768x511/f26dca01-b2d1-473b-b8c0-4b797be69e5c--051810F_553.JPG"
+            alt=""
+          />
+        </div>
+
+        <div class="recipeDetail">
+          <div class="recipeTitle">
+            <div class="title">
+              <div class="text">
+                Caesar Salad with Pancetta
+              </div>
+            </div>
+            <div class="readmore">
+              <div class="text">
+                Click to read more
+              </div>
+            </div>
+          </div>
+          <div class="recipeDescition">
+            <div class="ingredients">
+              <div class="text">
+                <span class="green">INGREDIENTS : </span
+                >{{
+                  getStrippedText(
+                    " juice of 1/2 a lime
+                1 yolk from a lightly boiled egg (coddled for a minute or two in boiling water)
+                2 Garlic cloves crushed fine
+                3 Anchovy fillets, chopped small
+                Black pepper
+                5 tablespoons extra virgin olive oil
+                4 tablespoons finely grated Parmigiano
+                Salt
+                1 Romaine lettuce head, cleaned and torn into bite-sized pieces
+                3 thick slices pancetta, cooked till crispy
+                1 slice sourdough bread, torn into 3/4-inch chunks
+                1 Garlic clove, peeled, kept whole",
+                    150
+                  )
+                }}
+              </div>
+            </div>
+            <div class="instructions">
+              <div class="text">
+                <span class="green">INSTRUCTIONS : </span
+                >{{
+                  getStrippedText(
+                    "In a bowl beat the lime juice into the softly boiled egg yolk.
+                Add the crushed garlic.
+                Add the finely-chopped anchovies.
+                Add black pepper.
+                Gradually whisk in the oil.
+                Add the Parmigiano.
+                Taste. If you need salt, add it now.
+                To the bowl, add the Romaine and toss well with your hands.
+                Lick your fingers.
+                In the same pan in which the pancetta crisped, toast the torn-up pieces of sourdough over medium heat. When crispy, rub each piece lightly with the whole garlic clove. Toss over salad.
+                Add pieces of crispy pancetta.
+                Enjoy with some cold, fruity white wine.",
+                    200
+                  )
+                }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

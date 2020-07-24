@@ -1,0 +1,79 @@
+$darkBLue: #05386b;
+$lightBlueGreen: #379683;
+$backgroundGreen: #5cdb95;
+$lightGreen: #8ee4af;
+$white: #edf5e1;
+
+.container {
+  margin-top: 40px;
+  width: 90%;
+  margin: auto;
+  .topRecipesHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: $white;
+    .topRecipeTitle {
+      flex: 1;
+      background: $darkBLue;
+      padding: 10px 15px;
+      font-weight: bold;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      text-align: center
+    }
+    .topRecipeTitle2 {
+      flex: 4;
+      font-size: 16px;
+      background: $lightBlueGreen;
+      padding: 12px 15px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+
+  .addRecipeContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+    .addform {
+      width: 60%;
+      background-color: $darkBLue;
+      border-radius: 10px;
+      form {
+        margin: 30px 30px;
+        label {
+          color: $white;
+          font-size: 16px;
+        }
+        div {
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+        button {
+          background-color: $lightBlueGreen;
+          padding: 10px 15px;
+          font-size: 16px;
+          border: none;
+          border-radius: 5px;
+          color: $white;
+        }
+      }
+    }
+    .foodpic {
+      width: 35%;
+      position: relative;
+      overflow: hidden;
+      background-color: $lightBlueGreen;
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+      img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}

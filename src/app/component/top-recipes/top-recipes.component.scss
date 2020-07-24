@@ -1,0 +1,64 @@
+$darkBLue: #05386b;
+$lightBlueGreen: #379683;
+$backgroundGreen: #5cdb95;
+$lightGreen: #8ee4af;
+$white: #edf5e1;
+
+.container {
+  margin-top: 40px;
+  width: 90%;
+  margin: auto;
+  .topRecipesHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: $white;
+    .topRecipeTitle {
+      flex: 1;
+      background: $darkBLue;
+      padding: 10px 15px;
+      font-weight: bold;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    .topRecipeTitle2 {
+      flex: 4;
+      font-size: 16px;
+      background: $lightBlueGreen;
+      padding: 12px 15px;
+      border-top-right-radius: 10px;
+      text-align: right;
+      border-bottom-right-radius: 10px;
+      a {
+        color: $white;
+      }
+    }
+  }
+  .cardsContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    .cards {
+      background-color: $darkBLue;
+      border-radius: 10px;
+      padding: 5px;
+      height: 250px;
+      width: 20%;
+      overflow: hidden;
+      margin: 20px 30px 0px 0px;
+      img {
+        background-size: cover;
+        height: 200px;
+        width: 98%;
+        border-radius: 10px;
+      }
+      div {
+        color: $white;
+        font-size: 16px;
+        word-break: break-word;
+      }
+    }
+  }
+}

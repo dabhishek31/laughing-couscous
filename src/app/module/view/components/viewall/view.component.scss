@@ -1,0 +1,94 @@
+$darkBLue: #05386b;
+$lightBlueGreen: #379683;
+$backgroundGreen: #5cdb95;
+$lightGreen: #8ee4af;
+$white: #edf5e1;
+
+.container {
+  margin-top: 40px;
+  width: 90%;
+  margin: auto;
+  .topRecipesHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: $white;
+    .topRecipeTitle {
+      flex: 1;
+      background: $darkBLue;
+      padding: 10px 15px;
+      font-weight: bold;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      text-align: center;
+    }
+    .topRecipeTitle2 {
+      flex: 4;
+      font-size: 16px;
+      background: $lightBlueGreen;
+      padding: 12px 15px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+
+  .viewallRecipeContainer {
+    .recipe {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      .recipeimage {
+        width: 30%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        img {
+          position: absolute;
+          top: -9999px;
+          bottom: -9999px;
+          left: -9999px;
+          right: -9999px;
+          max-width: 100%;
+          margin: auto;
+          background-size: contain;
+        }
+      }
+      .recipeDetail {
+        width: 68%;
+        color: $white;
+        border: solid 1px $darkBLue;
+        .recipeTitle {
+          background-color: $darkBLue;
+          font-weight: bold;
+          display: flex;
+          justify-content: space-between;
+          .readmore{
+            font-weight: normal;
+            background-color: #053361;
+          }
+        }
+        .recipeDescition {
+          font-size: 14px;
+          color: $darkBLue;
+          background-color: $white;
+          .ingredients {
+            border-bottom: solid 1px $darkBLue;
+          }
+          .instructions {
+            background-color: $white;
+            
+          }
+        }
+      }
+    }
+  }
+}
+.text {
+  padding: 10px 20px;
+}
+
+.green{
+  color: $darkBLue;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
